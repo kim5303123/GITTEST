@@ -61,3 +61,11 @@ git push -u origin master
 # 기본원격지 현재브랜치를 푸시
 git push 
 ```
+
+### From GitHub to Local Git
+- 복제할 원격 저장소 주소 확보
+- 복제
+```bash
+# git clone 원격지주소
+git clone https://github.com/kim5303123/GITTEST.git
+```
