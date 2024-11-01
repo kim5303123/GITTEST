@@ -28,7 +28,7 @@ git status
 - staging
 ```bash
 # 모든 Untracked files(추적안되는파일들)이 add가 되며 staging에 올라감
-git add . 
+git add .  ( git add * 도 가능)
 ```
 
 - 저장소에 반영 (commit)
@@ -43,4 +43,19 @@ git commit -m "First Commit"
 git status  
 # 로그 확인
 git log     
+```
+
+### Local Git to GitHub
+- GitHub에서 저장소 생성
+- 저장소 주소
+    -   https://github.com/kim5303123/GITTEST.git
+- 원격지 등록
+```bash
+# git remote add "저장소이름 저장소주소"
+git remote add origin https://github.com/kim5303123/GITTEST.git
+```
+- PUSH
+```bash
+# 첫번째 푸시
+git push -u origin master
 ```
